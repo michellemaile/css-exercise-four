@@ -23,7 +23,6 @@ div {
   background-size: cover;
   margin: 1% 0;
   width: 100%;
-  height: auto;
 }
 
 h1, h2 {
@@ -47,8 +46,6 @@ h2 {
 
 .preview.baku {
   background-image: url(../images/baku.jpg);
-  background-size: cover;
-
 }
 
 .preview.london {
@@ -62,12 +59,6 @@ h2 {
 .preview.rome {
   background-image: url(../images/rome.jpg);
 }
-
-
-
-
-
-
 
 @media screen and (min-width: 575px)  /* tablet */
 @media screen and (min-width: 991px)  /* laptop */
