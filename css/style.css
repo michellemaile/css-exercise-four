@@ -1,4 +1,73 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+.container {
+  margin: auto;
+  width: 90%;
+  position: relative;
+} 
+
+div {
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1% 0;
+  width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  font-style: normal;
+  font-size: 2.5em;
+  color: black;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+h2 { 
+  text-transform: capitalize;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.preview.baku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+
+}
+
+.preview.london {
+  background-image: url(../images/london.png);
+}
+
+.preview.madrid {
+  background-image: url(../images/madrid.jpg);
+}
+
+.preview.rome {
+  background-image: url(../images/rome.jpg);
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 575px)  /* tablet */
+@media screen and (min-width: 991px)  /* laptop */
